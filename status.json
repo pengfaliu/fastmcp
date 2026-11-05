@@ -1,7 +1,7 @@
 {
   "schema": "fastmcp-maintenance/1",
   "publisher": "fastmcp-actions",
-  "as_of": "2026-11-04T20:09:03Z",
+  "as_of": "2026-11-05T01:09:03Z",
   "automations": [
     {
       "id": "issue-link-gate",
@@ -14,16 +14,10 @@
       "evidence_url": "https://github.com/PrefectHQ/fastmcp/actions/workflows/require-issue-link.yml",
       "window": "7d",
       "counts": {
-        "passed": 118,
-        "blocked": 68
+        "passed": 113,
+        "blocked": 51
       },
       "daily": [
-        {
-          "day": "2026-10-29",
-          "succeeded": 5,
-          "failed": 0,
-          "blocked": 17
-        },
         {
           "day": "2026-10-30",
           "succeeded": 19,
@@ -59,6 +53,12 @@
           "succeeded": 5,
           "failed": 0,
           "blocked": 4
+        },
+        {
+          "day": "2026-11-05",
+          "succeeded": 0,
+          "failed": 0,
+          "blocked": 0
         }
       ]
     },
@@ -73,16 +73,10 @@
       "evidence_url": "https://github.com/PrefectHQ/fastmcp/actions/workflows/marvin-label-triage.yml",
       "window": "7d",
       "counts": {
-        "succeeded": 163,
+        "succeeded": 142,
         "failed": 0
       },
       "daily": [
-        {
-          "day": "2026-10-29",
-          "succeeded": 21,
-          "failed": 0,
-          "blocked": 0
-        },
         {
           "day": "2026-10-30",
           "succeeded": 15,
@@ -118,6 +112,12 @@
           "succeeded": 8,
           "failed": 0,
           "blocked": 0
+        },
+        {
+          "day": "2026-11-05",
+          "succeeded": 0,
+          "failed": 0,
+          "blocked": 0
         }
       ]
     },
@@ -132,16 +132,10 @@
       "evidence_url": "https://github.com/PrefectHQ/fastmcp/actions/workflows/marvin-dedupe-issues.yml",
       "window": "7d",
       "counts": {
-        "succeeded": 39,
+        "succeeded": 31,
         "failed": 0
       },
       "daily": [
-        {
-          "day": "2026-10-29",
-          "succeeded": 8,
-          "failed": 0,
-          "blocked": 0
-        },
         {
           "day": "2026-10-30",
           "succeeded": 2,
@@ -177,6 +171,12 @@
           "succeeded": 0,
           "failed": 0,
           "blocked": 0
+        },
+        {
+          "day": "2026-11-05",
+          "succeeded": 0,
+          "failed": 0,
+          "blocked": 0
         }
       ]
     },
@@ -191,16 +191,10 @@
       "evidence_url": "https://github.com/PrefectHQ/fastmcp/actions/workflows/auto-close-duplicates.yml",
       "window": "7d",
       "counts": {
-        "succeeded": 14,
+        "succeeded": 12,
         "failed": 0
       },
       "daily": [
-        {
-          "day": "2026-10-29",
-          "succeeded": 2,
-          "failed": 0,
-          "blocked": 0
-        },
         {
           "day": "2026-10-30",
           "succeeded": 2,
@@ -236,6 +230,12 @@
           "succeeded": 2,
           "failed": 0,
           "blocked": 0
+        },
+        {
+          "day": "2026-11-05",
+          "succeeded": 0,
+          "failed": 0,
+          "blocked": 0
         }
       ]
     },
@@ -250,16 +250,10 @@
       "evidence_url": "https://github.com/PrefectHQ/fastmcp/actions/workflows/marvin-test-failure.yml",
       "window": "7d",
       "counts": {
-        "succeeded": 609,
+        "succeeded": 549,
         "failed": 13
       },
       "daily": [
-        {
-          "day": "2026-10-29",
-          "succeeded": 62,
-          "failed": 0,
-          "blocked": 0
-        },
         {
           "day": "2026-10-30",
           "succeeded": 91,
@@ -292,8 +286,14 @@
         },
         {
           "day": "2026-11-04",
-          "succeeded": 41,
+          "succeeded": 43,
           "failed": 2,
+          "blocked": 0
+        },
+        {
+          "day": "2026-11-05",
+          "succeeded": 0,
+          "failed": 0,
           "blocked": 0
         }
       ]
@@ -309,16 +309,10 @@
       "evidence_url": "https://github.com/PrefectHQ/fastmcp/actions/workflows/marvin-comment-on-issue.yml",
       "window": "7d",
       "counts": {
-        "succeeded": 45,
-        "failed": 131
+        "succeeded": 44,
+        "failed": 115
       },
       "daily": [
-        {
-          "day": "2026-10-29",
-          "succeeded": 1,
-          "failed": 16,
-          "blocked": 0
-        },
         {
           "day": "2026-10-30",
           "succeeded": 14,
@@ -354,6 +348,12 @@
           "succeeded": 0,
           "failed": 8,
           "blocked": 0
+        },
+        {
+          "day": "2026-11-05",
+          "succeeded": 0,
+          "failed": 0,
+          "blocked": 0
         }
       ]
     },
@@ -368,16 +368,10 @@
       "evidence_url": "https://github.com/PrefectHQ/fastmcp/actions/workflows/run-upgrade-checks.yml",
       "window": "7d",
       "counts": {
-        "succeeded": 7,
+        "succeeded": 6,
         "failed": 0
       },
       "daily": [
-        {
-          "day": "2026-10-29",
-          "succeeded": 1,
-          "failed": 0,
-          "blocked": 0
-        },
         {
           "day": "2026-10-30",
           "succeeded": 1,
@@ -411,6 +405,12 @@
         {
           "day": "2026-11-04",
           "succeeded": 1,
+          "failed": 0,
+          "blocked": 0
+        },
+        {
+          "day": "2026-11-05",
+          "succeeded": 0,
           "failed": 0,
           "blocked": 0
         }
@@ -432,12 +432,6 @@
       },
       "daily": [
         {
-          "day": "2026-10-29",
-          "succeeded": 0,
-          "failed": 0,
-          "blocked": 0
-        },
-        {
           "day": "2026-10-30",
           "succeeded": 0,
           "failed": 0,
@@ -469,6 +463,12 @@
         },
         {
           "day": "2026-11-04",
+          "succeeded": 0,
+          "failed": 0,
+          "blocked": 0
+        },
+        {
+          "day": "2026-11-05",
           "succeeded": 0,
           "failed": 0,
           "blocked": 0
@@ -491,12 +491,6 @@
       },
       "daily": [
         {
-          "day": "2026-10-29",
-          "succeeded": 0,
-          "failed": 0,
-          "blocked": 0
-        },
-        {
           "day": "2026-10-30",
           "succeeded": 0,
           "failed": 0,
@@ -528,6 +522,12 @@
         },
         {
           "day": "2026-11-04",
+          "succeeded": 0,
+          "failed": 0,
+          "blocked": 0
+        },
+        {
+          "day": "2026-11-05",
           "succeeded": 0,
           "failed": 0,
           "blocked": 0
@@ -603,34 +603,34 @@
       "cadence": "twice daily",
       "runs_on": "github-actions",
       "state": "ok",
-      "last_ok_day": "2026-11-04",
+      "last_ok_day": "2026-11-05",
       "evidence_url": "https://github.com/PrefectHQ/fastmcp/pulls?q=is%3Apr+is%3Aopen+label%3Amissing-issue-link",
       "window": "now",
       "counts": {
         "waiting": 114,
         "oldest_days": 44,
-        "waiting_over_7_days": 91
+        "waiting_over_7_days": 92
       }
     }
   ],
   "main": {
-    "sha": "0cc306c2dfc0f15f4168fc0393e7ddd22088b394",
-    "url": "https://github.com/PrefectHQ/fastmcp/commit/0cc306c2dfc0f15f4168fc0393e7ddd22088b394",
+    "sha": "9e553dd970a3f185f9ae99530b72b7f8055dbede",
+    "url": "https://github.com/PrefectHQ/fastmcp/commit/9e553dd970a3f185f9ae99530b72b7f8055dbede",
     "checks": [
       {
         "name": "Tests",
         "state": "ok",
-        "url": "https://github.com/PrefectHQ/fastmcp/actions/runs/41902349890"
+        "url": "https://github.com/PrefectHQ/fastmcp/actions/runs/41905645769"
       },
       {
         "name": "Run static analysis",
         "state": "ok",
-        "url": "https://github.com/PrefectHQ/fastmcp/actions/runs/41902349629"
+        "url": "https://github.com/PrefectHQ/fastmcp/actions/runs/41905645762"
       },
       {
         "name": "CodeQL",
         "state": "ok",
-        "url": "https://github.com/PrefectHQ/fastmcp/actions/runs/41902349087"
+        "url": "https://github.com/PrefectHQ/fastmcp/actions/runs/41905643962"
       }
     ]
   },
@@ -648,7 +648,7 @@
   "attention": {
     "schema": "fastmcp-attention/1",
     "repo": "PrefectHQ/fastmcp",
-    "as_of": "2026-11-04T20:07:00.789522+00:00",
+    "as_of": "2026-11-05T01:07:21.518432+00:00",
     "profile": "public-issue-signals",
     "judge": "jev",
     "assessment_model": "jev:jev-latest",
@@ -4734,6 +4734,82 @@
         ]
       },
       {
+        "number": 6265,
+        "title": "OpenAPI rejects declared 202 JSON success after executing POST",
+        "url": "https://github.com/PrefectHQ/fastmcp/issues/6265",
+        "updated_at": "2026-11-02T21:48:01+00:00",
+        "score": 8.73,
+        "kind": "bug",
+        "judged": true,
+        "assessment": {
+          "kind": {
+            "bug": 1.0,
+            "regression": 0.0,
+            "feature": 0.0,
+            "question": 0.0,
+            "docs": 0.0,
+            "other": 0.0
+          },
+          "repro": 0.98,
+          "actionable": 1.0,
+          "severity": 0.7133333333333334,
+          "security": 0.04,
+          "spec": 0.35,
+          "downstream": 0.17
+        },
+        "input_digest": "f1f58b8ea2f5e6d37aa23c34ab57566d8bd14aac7b24085d341fc90b8ae959a0",
+        "reasons": [
+          {
+            "signal": "severity",
+            "text": "potential impact",
+            "contribution": 2.14
+          },
+          {
+            "signal": "neglect",
+            "text": "awaiting maintainer reply",
+            "contribution": 1.5
+          },
+          {
+            "signal": "repro",
+            "text": "reproduction provided",
+            "contribution": 1.47
+          },
+          {
+            "signal": "regression",
+            "text": "possible regression",
+            "contribution": 1.16
+          },
+          {
+            "signal": "actionable",
+            "text": "actionable report",
+            "contribution": 1.0
+          },
+          {
+            "signal": "release_proximity",
+            "text": "reported near a relevant release",
+            "contribution": 0.69
+          },
+          {
+            "signal": "spec",
+            "text": "protocol conformance",
+            "contribution": 0.35
+          },
+          {
+            "signal": "downstream",
+            "text": "downstream integration affected",
+            "contribution": 0.26
+          },
+          {
+            "signal": "security",
+            "text": "security-sensitive report",
+            "contribution": 0.16
+          }
+        ],
+        "maintainer_replied": false,
+        "assigned": false,
+        "linked_prs": []
+      },
+      {
         "number": 6135,
         "title": "Mutually recursive Pydantic return types are hydrated as the wrong class in result.data",
         "url": "https://github.com/PrefectHQ/fastmcp/issues/6135",
@@ -8356,77 +8432,6 @@
           }
         ],
         "maintainer_replied": true,
-        "assigned": false,
-        "linked_prs": []
-      },
-      {
-        "number": 6265,
-        "title": "OpenAPI rejects declared 202 JSON success after executing POST",
-        "url": "https://github.com/PrefectHQ/fastmcp/issues/6265",
-        "updated_at": "2026-11-02T21:48:01+00:00",
-        "score": 7.23,
-        "kind": "bug",
-        "judged": true,
-        "assessment": {
-          "kind": {
-            "bug": 1.0,
-            "regression": 0.0,
-            "feature": 0.0,
-            "question": 0.0,
-            "docs": 0.0,
-            "other": 0.0
-          },
-          "repro": 0.98,
-          "actionable": 1.0,
-          "severity": 0.7133333333333334,
-          "security": 0.04,
-          "spec": 0.35,
-          "downstream": 0.17
-        },
-        "input_digest": "f1f58b8ea2f5e6d37aa23c34ab57566d8bd14aac7b24085d341fc90b8ae959a0",
-        "reasons": [
-          {
-            "signal": "severity",
-            "text": "potential impact",
-            "contribution": 2.14
-          },
-          {
-            "signal": "repro",
-            "text": "reproduction provided",
-            "contribution": 1.47
-          },
-          {
-            "signal": "regression",
-            "text": "possible regression",
-            "contribution": 1.16
-          },
-          {
-            "signal": "actionable",
-            "text": "actionable report",
-            "contribution": 1.0
-          },
-          {
-            "signal": "release_proximity",
-            "text": "reported near a relevant release",
-            "contribution": 0.69
-          },
-          {
-            "signal": "spec",
-            "text": "protocol conformance",
-            "contribution": 0.35
-          },
-          {
-            "signal": "downstream",
-            "text": "downstream integration affected",
-            "contribution": 0.26
-          },
-          {
-            "signal": "security",
-            "text": "security-sensitive report",
-            "contribution": 0.16
-          }
-        ],
-        "maintainer_replied": false,
         "assigned": false,
         "linked_prs": []
       },
@@ -21104,6 +21109,89 @@
         "linked_prs": []
       },
       {
+        "number": 6262,
+        "title": "Add OpenStack Keystone Token Validator",
+        "url": "https://github.com/PrefectHQ/fastmcp/issues/6262",
+        "updated_at": "2026-11-03T19:52:38+00:00",
+        "score": 1.11,
+        "kind": "feature",
+        "judged": true,
+        "assessment": {
+          "kind": {
+            "bug": 0.0,
+            "regression": 0.0,
+            "feature": 1.0,
+            "question": 0.0,
+            "docs": 0.0,
+            "other": 0.0
+          },
+          "repro": 0.03,
+          "actionable": 0.615,
+          "severity": 0.42,
+          "security": 0.09,
+          "spec": 0.08,
+          "downstream": 0.04
+        },
+        "input_digest": "5adab2c7cd84f506967f1fecf60a921c9ad34e184862666999f35ee5399809a9",
+        "reasons": [
+          {
+            "signal": "neglect",
+            "text": "awaiting maintainer reply",
+            "contribution": 1.5
+          },
+          {
+            "signal": "handled",
+            "text": "assigned or linked to a fix",
+            "contribution": -1.5
+          },
+          {
+            "signal": "severity",
+            "text": "potential impact",
+            "contribution": 1.26
+          },
+          {
+            "signal": "feature_label",
+            "text": "enhancement label",
+            "contribution": -1.0
+          },
+          {
+            "signal": "feature",
+            "text": "enhancement request",
+            "contribution": -1.0
+          },
+          {
+            "signal": "release_proximity",
+            "text": "reported near a relevant release",
+            "contribution": 0.69
+          },
+          {
+            "signal": "actionable",
+            "text": "actionable report",
+            "contribution": 0.61
+          },
+          {
+            "signal": "security",
+            "text": "security-sensitive report",
+            "contribution": 0.36
+          },
+          {
+            "signal": "spec",
+            "text": "protocol conformance",
+            "contribution": 0.08
+          },
+          {
+            "signal": "downstream",
+            "text": "downstream integration affected",
+            "contribution": 0.06
+          }
+        ],
+        "maintainer_replied": false,
+        "assigned": true,
+        "linked_prs": [
+          6264
+        ]
+      },
+      {
         "number": 3534,
         "title": "Support GenAI semantic convention in open telemetry",
         "url": "https://github.com/PrefectHQ/fastmcp/issues/3534",
@@ -22224,84 +22312,6 @@
         "maintainer_replied": false,
         "assigned": true,
         "linked_prs": []
-      },
-      {
-        "number": 6262,
-        "title": "Add OpenStack Keystone Token Validator",
-        "url": "https://github.com/PrefectHQ/fastmcp/issues/6262",
-        "updated_at": "2026-11-03T19:52:38+00:00",
-        "score": -0.39,
-        "kind": "feature",
-        "judged": true,
-        "assessment": {
-          "kind": {
-            "bug": 0.0,
-            "regression": 0.0,
-            "feature": 1.0,
-            "question": 0.0,
-            "docs": 0.0,
-            "other": 0.0
-          },
-          "repro": 0.03,
-          "actionable": 0.615,
-          "severity": 0.42,
-          "security": 0.09,
-          "spec": 0.08,
-          "downstream": 0.04
-        },
-        "input_digest": "5adab2c7cd84f506967f1fecf60a921c9ad34e184862666999f35ee5399809a9",
-        "reasons": [
-          {
-            "signal": "handled",
-            "text": "assigned or linked to a fix",
-            "contribution": -1.5
-          },
-          {
-            "signal": "severity",
-            "text": "potential impact",
-            "contribution": 1.26
-          },
-          {
-            "signal": "feature_label",
-            "text": "enhancement label",
-            "contribution": -1.0
-          },
-          {
-            "signal": "feature",
-            "text": "enhancement request",
-            "contribution": -1.0
-          },
-          {
-            "signal": "release_proximity",
-            "text": "reported near a relevant release",
-            "contribution": 0.69
-          },
-          {
-            "signal": "actionable",
-            "text": "actionable report",
-            "contribution": 0.61
-          },
-          {
-            "signal": "security",
-            "text": "security-sensitive report",
-            "contribution": 0.36
-          },
-          {
-            "signal": "spec",
-            "text": "protocol conformance",
-            "contribution": 0.08
-          },
-          {
-            "signal": "downstream",
-            "text": "downstream integration affected",
-            "contribution": 0.06
-          }
-        ],
-        "maintainer_replied": false,
-        "assigned": true,
-        "linked_prs": [
-          6264
-        ]
       },
       {
         "number": 2262,
